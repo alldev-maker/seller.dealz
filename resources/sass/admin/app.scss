@@ -1,0 +1,80 @@
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+// Bootstrap
+@import '~bootstrap/scss/functions';
+@import "boostrap/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/input-group";
+@import "~bootstrap/scss/custom-forms";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/jumbotron";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/media";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/print";
+
+// Boostrap Tables in Cards component
+@import "~bootstrap4-card-tables/src/bootstrap4-card-tables";
+
+// Bootstrap Vue
+@import "~bootstrap-vue/src/index";
+
+// Malihu Custom Scrollbar
+@import "~malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css";
+
+// Slick Carousel
+@import "slick-carousel/slick";
+@import "slick-carousel/slick-theme";
+
+// Vue Select
+@import "vue-select/global/variables";
+@import "~vue-select/src/scss/global/component";
+@import "~vue-select/src/scss/global/animations";
+@import "~vue-select/src/scss/global/states";
+@import "~vue-select/src/scss/modules/dropdown-toggle";
+@import "~vue-select/src/scss/modules/open-indicator";
+@import "~vue-select/src/scss/modules/clear";
+@import "~vue-select/src/scss/modules/dropdown-menu";
+@import "~vue-select/src/scss/modules/dropdown-option";
+@import "~vue-select/src/scss/modules/selected";
+@import "~vue-select/src/scss/modules/search-input";
+@import "~vue-select/src/scss/modules/spinner";
+
+// Vue Slider Component
+@import "~vue-slider-component/lib/theme/default";
+
+// rrweb Player
+//@import "~rrweb/dist/rrweb.min.css";
+//@import "~rrweb-player/dist/style.css";
+
+// Main theme
+@import "theme/theme";
+

@@ -1,0 +1,20 @@
+
+#sidebar {
+  width: 270px;
+  position: fixed;
+  top: 0;
+  left: -270px;
+  height: 100vh;
+  z-index: 9999;
+  color: #fff;
+  transition: all 0.3s;
+  //overflow-y: scroll;
+  &.active {
+    left: 0;
+  }
+
+  .profile {
+    padding: ($grid-gutter-width);
+    background-color: theme-color-level(primary, 1);
+  }
+}

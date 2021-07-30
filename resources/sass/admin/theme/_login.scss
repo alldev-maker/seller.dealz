@@ -1,0 +1,35 @@
+body.login {
+  padding: 0;
+
+  background: transparent url('/images/image-login.jpg') 50% 50% no-repeat fixed;
+  background-size: cover;
+}
+
+.box-login {
+  width: 100%;
+  height: 100%;
+  max-width: 24rem;
+
+  .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .form-control:focus {
+    z-index: 2;
+  }
+
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}

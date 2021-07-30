@@ -1,0 +1,19 @@
+
+@mixin svg-fill-variant($parent, $color) {
+  #{$parent} {
+    fill: $color !important;
+  }
+}
+
+@each $color, $value in $theme-colors {
+  @include svg-fill-variant(".svg-fill-#{$color}", $value);
+}
+
+@each $color, $value in $colors {
+  @include svg-fill-variant(".svg-fill-#{$color}", $value);
+}
+
+@each $color, $value in $grays {
+  @include svg-fill-variant(".svg-fill-gray-#{$color}", $value);
+}
+

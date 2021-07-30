@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="11fed434-f5c1-4df3-bf6c-edaa0483131b" name="DWAlliance Dev" url="https://dev.biometricedge.com">
+        <fileTransfer rootFolder="/home/james/websites/com.biometricedge/dev/" accessType="SFTP" host="dev2.dwalliance.com" port="22" sshConfigId="b8f395c4-e960-4eb2-8b09-f6d04b0991a7" sshConfig="DWAlliance">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a6531d11-f42e-4fd9-b56b-66427b2de3d6" name="DWAlliance Prod" url="https://quiz.biometricedge.com">
+        <fileTransfer rootFolder="/home/james/websites/com.biometricedge/quiz" accessType="SFTP" host="dev2.dwalliance.com" port="22" sshConfigId="b8f395c4-e960-4eb2-8b09-f6d04b0991a7" sshConfig="DWAlliance">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ec54d58b-ca26-4913-8738-a61bc7ca893c" name="DWAlliance Staging" url="https://staging.biometricedge.com">
+        <fileTransfer rootFolder="/home/james/websites/com.biometricedge/staging" accessType="SFTP" host="dev2.dwalliance.com" port="22" sshConfigId="b8f395c4-e960-4eb2-8b09-f6d04b0991a7" sshConfig="DWAlliance">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

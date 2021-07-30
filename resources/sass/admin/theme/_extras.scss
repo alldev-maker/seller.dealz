@@ -1,0 +1,252 @@
+// Sidebar
+//
+// Sidebar navigation based on the theme in navigation bar.
+
+.sidebar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+
+  ul {
+    list-style-type: none;
+  }
+
+  .nav-link {
+    display: block;
+    padding: $nav-link-padding-y $nav-link-padding-x;
+    cursor: pointer;
+  }
+
+  .nav-has-child > .nav-link::before {
+    content: '\f107';
+    display: block;
+    position: absolute;
+    right: 1rem;
+    font-family: 'Font Awesome 5 Free', monospace;
+    font-weight: 900;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+  .nav-has-child > .nav-link.collapsed::before {
+    content: '\f105';
+  }
+
+  .nav-sub {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    .nav-item {
+      .nav-link {
+        padding-left: 3rem;
+        position: relative;
+        &::before {
+          content: '\f111';
+          display: block;
+          position: absolute;
+          left: 1.8rem;
+          font-family: 'Font Awesome 5 Free', monospace;
+          font-weight: 900;
+          font-size: 6px;
+          line-height: 1.5rem;
+        }
+      }
+      &.nav-has-child > .nav-link::before {
+        content: '\f107';
+        font-size: 0.8rem;
+      }
+      &.nav-has-child > .nav-link.collapsed::before {
+        content: '\f105';
+      }
+      .nav-sub {
+        .nav-item {
+          .nav-link {
+            padding-left: 4.3rem;
+            &::before {
+              left: 3.1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Sidebar themes
+//
+// Styles for switching between sidebars with light or dark background.
+
+// Dark links against a light background
+.sidebar-light {
+  .sidebar-brand {
+    color: $navbar-light-active-color;
+
+    @include hover-focus {
+      color: $navbar-light-active-color;
+    }
+  }
+
+  .sidebar-nav {
+    .nav-link {
+      color: $navbar-light-color;
+
+      @include hover-focus {
+        color: $navbar-light-hover-color;
+      }
+
+      &.disabled {
+        color: $navbar-light-disabled-color;
+      }
+    }
+
+    .show > .nav-link,
+    .active > .nav-link,
+    .nav-link.show,
+    .nav-link.active {
+      color: $navbar-light-active-color;
+    }
+  }
+
+  .sidebar-toggler {
+    color: $navbar-light-color;
+    border-color: $navbar-light-toggler-border-color;
+  }
+
+  .sidebar-toggler-icon {
+    background-image: $navbar-light-toggler-icon-bg;
+  }
+
+  .sidebar-text {
+    color: $navbar-light-color;
+    a {
+      color: $navbar-light-active-color;
+
+      @include hover-focus {
+        color: $navbar-light-active-color;
+      }
+    }
+  }
+}
+
+// White links against a dark background
+.sidebar-dark {
+  .sidebar-brand {
+    color: $navbar-dark-active-color;
+
+    @include hover-focus {
+      color: $navbar-dark-active-color;
+    }
+  }
+
+  .sidebar-nav {
+    .nav-link {
+      color: $navbar-dark-color;
+
+      @include hover-focus {
+        background-color: theme-color-level(primary, 1);
+        color: $navbar-dark-hover-color;
+      }
+
+      &.disabled {
+        color: $navbar-dark-disabled-color;
+      }
+    }
+
+    .show > .nav-link,
+    .active > .nav-link,
+    .nav-link.show,
+    .nav-link.active {
+      background-color: theme-color-level(primary, 1);
+      color: $navbar-dark-active-color;
+    }
+
+    .nav-item.active {
+      .nav-sub {
+        background-color: theme-color-level(primary, 1);
+        color: $navbar-dark-active-color;
+
+        .nav-link {
+          @include hover-focus {
+            background-color: theme-color-level(primary, 0);
+            color: $navbar-dark-hover-color;
+          }
+        }
+      }
+    }
+  }
+
+  .sidebar-toggler {
+    color: $navbar-dark-color;
+    border-color: $navbar-dark-toggler-border-color;
+  }
+
+  .sidebar-toggler-icon {
+    background-image: $navbar-dark-toggler-icon-bg;
+  }
+
+  .sidebar-text {
+    color: $navbar-dark-color;
+    a {
+      color: $navbar-dark-active-color;
+
+      @include hover-focus {
+        color: $navbar-dark-active-color;
+      }
+    }
+  }
+}
+
+
+// Extra-small buttons
+//
+// This style is absent in Bootstrap 4.0, and it does exists in Bootstrap 3.x.
+
+$btn-padding-x-xs: 0.25rem;
+$btn-padding-y-xs: 0.25rem;
+$font-size-xs: 0.74rem;
+$line-height-xs: 1;
+
+.btn-xs {
+  @include button-size($btn-padding-y-xs, $btn-padding-x-xs, $font-size-xs, $line-height-xs, $border-radius);
+}
+
+
+// Labels for buttons
+// --------------------------------------------------
+
+@mixin button-label-size($padding-y, $padding-x, $border-radius) {
+  padding: $padding-y $padding-x;
+  left: (-1 * $padding-x);
+  border-radius: ($border-radius - 0.0625rem) 0 0 ($border-radius - 0.0625rem);
+
+  &.btn-label-right {
+    left: auto;
+    right: (-1 * $padding-x);
+    border-radius: 0 ($border-radius - 0.0625rem) ($border-radius - 0.0625rem) 0;
+  }
+}
+
+.btn-labeled {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.btn-label {
+  position: relative;
+  background: rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  @include button-label-size($btn-padding-y, $btn-padding-x, $btn-border-radius);
+}
+
+.btn-lg .btn-label {
+  @include button-label-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-border-radius-lg);
+}
+
+.btn-sm .btn-label {
+  @include button-label-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-border-radius-sm);
+}
+
+.btn-xs .btn-label {
+  @include button-label-size($btn-padding-y-xs, $btn-padding-x-xs, $btn-border-radius);
+}

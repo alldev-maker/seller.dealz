@@ -1,0 +1,217 @@
+html, body {
+  height: 100%;
+}
+
+
+// Light background
+// --------------------------------------------------
+
+@each $color, $value in $theme-colors {
+  .bg-light-#{$color} {
+    background-color: theme-color-level($color, -10);
+  }
+}
+
+
+// Slides
+// --------------------------------------------------
+
+.slides {
+  height: calc(60vh - 71px);
+  overflow: hidden;
+  .slide {
+    padding: 1rem;
+    height: 100%;
+
+    &.slide-title {
+
+    }
+  }
+}
+
+
+// Timer
+// --------------------------------------------------
+.timer {
+  .small {
+    font-size: 1rem;
+  }
+}
+
+
+// Calibration Points Position
+// --------------------------------------------------
+#sidebar-video {
+  .wrapper {
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+  }
+}
+
+// Navigation Box
+// --------------------------------------------------
+
+#navbox-area {
+  height: calc((100vh * 0.9) - (240px + 64px + 81px + 2px + 5rem));
+}
+
+/**
+.navbox-area {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+
+  .btn-navbox {
+    //width: 1.5rem;
+    //height: 1.5rem;
+  }
+}
+**/
+
+
+.navbox-section {
+  display: none;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+}
+
+
+// Labels for buttons
+// --------------------------------------------------
+
+@mixin button-label-size($padding-y, $padding-x, $border-radius) {
+  padding: $padding-y $padding-x;
+  left: (-1 * $padding-x);
+  border-radius: ($border-radius - 0.0625rem) 0 0 ($border-radius - 0.0625rem);
+
+  &.btn-label-right {
+    left: auto;
+    right: (-1 * $padding-x);
+    border-radius: 0 ($border-radius - 0.0625rem) ($border-radius - 0.0625rem) 0;
+  }
+}
+
+.btn-labeled {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.btn-label {
+  position: relative;
+  background: rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  @include button-label-size($btn-padding-y, $btn-padding-x, $btn-border-radius);
+}
+
+.btn-lg .btn-label {
+  @include button-label-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-border-radius-lg);
+}
+
+.btn-sm .btn-label {
+  @include button-label-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-border-radius-sm);
+}
+
+
+// Radio Buttons
+// TO DO: Create custom radio buttons
+// --------------------------------------------------
+
+.choices {
+
+}
+
+
+// Calibration
+// --------------------------------------------------
+
+#canvas-calibration {
+  display: none;
+}
+
+input[type="button"].calibration {
+  width: 1.75rem;
+  height: 1.75rem;
+
+  margin: 0;
+  padding: 0;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  display: none;
+  position: fixed;
+
+  background-color: $red;
+  opacity: 0.2;
+  border: 1px solid $black;
+  z-index: 1060;
+}
+
+// Calibration Points Position
+// --------------------------------------------------
+#pt1 {
+  top: 3vw;
+  left: 3vw;
+}
+
+#pt2 {
+  top: 3vw;
+  left: 50vw;
+}
+
+#pt3 {
+  top: 3vw;
+  right: 3vw;
+}
+
+#pt4 {
+  top: 50vh;
+  left: 3vw;
+}
+
+#pt5 {
+  top: 50vh;
+  left: 50vw;
+}
+
+#pt6 {
+  top: 50vh;
+  right: 3vw;
+}
+
+#pt7 {
+  bottom: 3vw;
+  left: 3vw;
+}
+
+#pt8 {
+  bottom: 3vw;
+  left: 50vw;
+}
+
+#pt9 {
+  bottom: 3vw;
+  right: 3vw;
+}
+
+
+// Offline overlays
+// --------------------------------------------------
+.offline-overlay {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 99999;
+  background: rgba(39, 42, 43, 0.8);
+  transition: opacity 200ms ease-in-out;
+  color: $white;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}

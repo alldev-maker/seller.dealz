@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="dev2.dwalliance.com" id="b8f395c4-e960-4eb2-8b09-f6d04b0991a7" port="22" customName="DWAlliance" nameFormat="CUSTOM" username="james" />
+      <sshConfig authType="PASSWORD" host="dev2.dwalliance.com" id="eb4a16f9-0c76-42e4-a3a0-a3a55ace1e12" port="22" customName="DWAlliance" nameFormat="CUSTOM" username="james" />
+    </configs>
+  </component>
+</project>

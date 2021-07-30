@@ -1,0 +1,398 @@
+.table-grid {
+  .section {
+    background: $gray-100;
+  }
+  .section-main {
+    .table {
+      margin-bottom: 0;
+      border: 0 none;
+      thead, tbody {
+        tr {
+          th:first-of-type, td:first-of-type {
+            border-left: 0;
+          }
+          th:last-of-type, td:last-of-type {
+            border-right: 0;
+          }
+        }
+      }
+      thead {
+        tr:first-of-type {
+          th {
+            border-top: 0;
+          }
+        }
+        tr:last-of-type {
+          th {
+            border-bottom: 0;
+          }
+        }
+      }
+      tbody {
+        tr:last-of-type {
+          td {
+            border-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.card {
+  .table {
+    margin-bottom: 0;
+    border: 0 none;
+    thead, tbody {
+      tr {
+        th:first-of-type, td:first-of-type {
+          border-left: 0;
+          padding-left: $card-spacer-x;
+        }
+        th:last-of-type, td:last-of-type {
+          border-right: 0;
+        }
+      }
+    }
+
+    thead {
+      tr:last-of-type {
+        th {
+          border-bottom: 0;
+        }
+      }
+    }
+    tbody {
+      tr:first-of-type {
+        td {
+          border-top: $table-border-width solid $table-border-color;
+        }
+      }
+      tr:last-of-type {
+        td {
+          border-bottom: 0;
+        }
+      }
+    }
+
+    &:first-of-type {
+      thead {
+        tr:first-of-type {
+          th {
+            border-top: 0;
+          }
+        }
+      }
+    }
+
+    &:last-of-type {
+      tbody {
+        tr:last-of-type {
+          td {
+            border-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .card-body-table {
+    .p-l {
+      padding-left: $card-spacer-x;
+    }
+    .p-r {
+      padding-right: $card-spacer-x;
+    }
+  }
+}
+
+.gallery-grid {
+  .section {
+    background: $gray-100;
+  }
+  .section-t {
+
+  }
+  .gallery-content {
+    .card {
+      .card-title {
+        min-height: 48px;
+      }
+    }
+  }
+  .section-b {
+    margin-top: -1px;
+    .pagination {
+      margin: 0;
+    }
+  }
+}
+
+.table {
+  td {
+    vertical-align: middle;
+  }
+  .checkbox {
+    width: 3rem;
+    text-align: center;
+  }
+  .role {
+    width: 10rem;
+  }
+  .groups {
+    width: 250px;
+  }
+  .email {
+    width: 180px;
+    text-overflow: ellipsis;
+  }
+  .module {
+    width: 12rem;
+  }
+  .amount {
+    width: 7.5rem;
+    text-align: right;
+  }
+  .period {
+    width: 9rem;
+    text-align: right;
+  }
+  .hours {
+    width: 4rem;
+    text-align: right;
+  }
+  .id {
+    width: 4rem;
+    text-align: right;
+  }
+  .date {
+    width: 6rem;
+  }
+  .name {
+    width: 270px;
+    &-list {
+      width: 180px;
+    }
+  }
+  .age {
+    width: 6rem;
+  }
+  .delete {
+    width: 1rem;
+  }
+  .status {
+    width: 110px;
+    text-align: center;
+  }
+  .date-short {
+    width: 110px;
+    text-align: right;
+  }
+  .date-timestamp {
+    width: 14rem;
+  }
+  .ip-address {
+    width: 10rem;
+    text-align: right;
+  }
+  .indicator {
+    text-align: center;
+    width: 3rem;
+  }
+  .component {
+    width: 350px;
+  }
+  .slug {
+    width: 150px;
+    &-permissions {
+      width: 250px;
+    }
+  }
+  .settings-key {
+    width: 250px;
+  }
+  .icon {
+    width: 3rem;
+    text-align: center;
+  }
+  .region-code {
+    width: 5rem;
+  }
+  .island-group {
+    width: 12rem;
+  }
+  .region {
+    width: 12rem;
+  }
+  .province {
+    width: 12rem;
+  }
+  .ordering {
+    width: 5.5rem;
+    text-align: center;
+  }
+  .article-id {
+    width: 5rem;
+    text-align: right;
+  }
+  .current-step {
+    width: 10rem;
+  }
+  .total {
+    width: 8rem;
+    text-align: right;
+  }
+  .type {
+    width: 12rem;
+  }
+  .actions {
+    width: 7rem;
+    text-align: center;
+    &-single {
+      width: 5rem;
+    }
+    &-sm {
+      width: 8rem;
+    }
+    &-md {
+      width: 14rem;
+    }
+    &-lg {
+      width: 20rem;
+    }
+  }
+  .editing {
+    outline: 2px dashed $primary;
+  }
+  .plan {
+    width: 15rem;
+  }
+  .field-name {
+    width: 10rem;
+  }
+  .dropdown-typeahead {
+    padding: 0;
+    & > .editable {
+      padding: $table-cell-padding;
+    }
+    &.p-l > .editable {
+      padding-left: 0;
+    }
+  }
+  .vs__dropdown-toggle {
+    border: 0 none;
+    border-radius: 0;
+    padding: 0;
+  }
+  .vs__selected {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+  }
+  .vs__selected-options {
+    padding: $table-cell-padding;
+    line-height: $line-height-base;
+  }
+  .vs__search {
+    line-height: $input-line-height;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+  }
+}
+
+.table-logs {
+  thead, tbody, tfoot {
+    tr {
+      th, td {
+        font-size: $font-size-sm;
+        line-height: $line-height-sm;
+        font-family: $font-family-monospace;
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+.table-question {
+  tr {
+    th, td {
+      p:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .letter {
+    width: 3rem;
+  }
+}
+
+.table-settings {
+  thead, tbody, tfoot {
+    tr {
+      th, td {
+        font-size: $font-size-sm;
+        line-height: $line-height-sm;
+        font-family: $font-family-monospace;
+      }
+    }
+  }
+}
+
+.table-two-rows {
+  thead, tbody, tfoot {
+    tr {
+      th, td {
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+.card-comp-photo {
+  box-shadow: 0 .125rem .25rem rgba($black, .075);
+  &:hover, &.selected {
+    border-color: $primary;
+    background-color: rgba($primary, 0.05);
+    box-shadow: 0 .125rem .25rem rgba($primary, .075);
+  }
+}
+
+.answer-strip {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1rem;
+  border: 1px solid $black;
+  th, td {
+    padding: 0.5rem 0.7rem;
+  }
+  .cell-title {
+    text-align: left;
+  }
+  .cell {
+    text-align: center;
+  }
+
+  .section-name {
+    .cell-title {
+      border-top: 0.0625rem solid $black;
+      border-bottom: 0.0625rem solid $black;
+      background-color: $gray-300;
+    }
+  }
+
+  .your-answer {
+    .cell-title, .cell {
+      border-top: 0.0625rem solid $black;
+      border-bottom: 0.0625rem solid $black;
+      background-color: $gray-300;
+    }
+    .incorrect {
+      background-color: #000072;
+      color: #fff;
+    }
+    .skipped {
+      background-color: #89cff0;
+    }
+  }
+}
