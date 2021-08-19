@@ -183,3 +183,5 @@
 "[object Object]" 
 "Leo_18-08-Gift change, delete testtaker change, fixed send invitation issue" 
 "[object Object]" 
+"Leo_19-08-send invitation issue" 
+"[object Object]" 
