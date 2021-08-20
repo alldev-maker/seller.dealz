@@ -18,3 +18,5 @@
 "Leo_18-08-delete testtaker change, fixed send invitation issue" 
 "[object Object]" 
 "[object Object]" 
+"Leo_20-08-Summary page sorting task, remain credit label change" 
+"[object Object]" 
