@@ -27,3 +27,5 @@
 "[object Object]" 
 "Leo_14-09-2021_face detection issue" 
 "[object Object]" 
+"apply prettier" 
+"[object Object]" 
