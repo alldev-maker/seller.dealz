@@ -31,3 +31,5 @@
 "[object Object]" 
 "Merge branch 'dev' of https://github.com/biometricedge/quizmaster into BE-36-reading-passage-in-admin" 
 "[object Object]" 
+"resolve the conflicts" 
+"[object Object]" 
