@@ -37,3 +37,5 @@
 "[object Object]" 
 "Leo_5-10-2021_BE-12_Search_doesn't_pull_any_result_when_an_attempt_to_perform_user_searching_by_user's_email_or_role." 
 "[object Object]" 
+"Leo_5-10-2021_BE-40_Edit_Test_Giver_Search_in_Add_Test_Taker_modal_not_working" 
+"[object Object]" 
