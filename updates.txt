@@ -196,3 +196,5 @@
 "[object Object]" 
 "Merge branch 'dev' of https://github.com/biometricedge/quizmaster into BE-43-dynamic-question-nums" 
 "[object Object]" 
+"update the question parts" 
+"[object Object]" 
