@@ -366,3 +366,5 @@
 "[object Object]" 
 "Leo_5-10-2021_BE-67_As_a_quiz_creator_I_would_like_the_question_numbers_to_be_generated_dynamically" 
 "[object Object]" 
+"update the view.blade.php" 
+"[object Object]" 
