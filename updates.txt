@@ -41,3 +41,5 @@
 "[object Object]" 
 "form validation edit section" 
 "[object Object]" 
+"remove the auto generated js file" 
+"[object Object]" 
