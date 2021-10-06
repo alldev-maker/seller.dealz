@@ -49,3 +49,5 @@
 "[object Object]" 
 "update the questionaire" 
 "[object Object]" 
+"Merge branch 'BE-12_Search_doesnt_pull_any_result_when_an_attempt_to_perform_user_searching_by_users_email_or_role' into dev" 
+"[object Object]" 
