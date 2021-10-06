@@ -370,3 +370,5 @@
 "[object Object]" 
 "Merge branch 'dev' of https://github.com/biometricedge/quizmaster into BE-47-form-validation" 
 "[object Object]" 
+"edit-section-validation" 
+"[object Object]" 
