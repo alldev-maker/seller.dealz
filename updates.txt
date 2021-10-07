@@ -57,3 +57,5 @@
 "[object Object]" 
 "Merge pull request #15 from biometricedge/BE-40_Edit_Test_Giver_Search_in_Add_Test_Taker_modal_not_working" 
 "[object Object]" 
+"update the validation" 
+"[object Object]" 
