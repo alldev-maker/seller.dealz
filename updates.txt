@@ -63,3 +63,5 @@
 "[object Object]" 
 "Merge branch 'dev' of https://github.com/biometricedge/quizmaster into BE-70-Not_admin_users_are_present" 
 "[object Object]" 
+"Procfile for Heroku" 
+"[object Object]" 
