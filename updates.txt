@@ -244,3 +244,5 @@
 "[object Object]" 
 "BE-64 Update the Question Type (#30)" 
 "[object Object]" 
+"Merge branch 'dev' into BE-67_As_a_quiz_creator_I_would_like_the_question_numbers_to_be_generated_dynamically" 
+"[object Object]" 
