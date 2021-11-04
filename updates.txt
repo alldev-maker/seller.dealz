@@ -92,3 +92,5 @@
 "[object Object]" 
 "Leo_2-11-2021_BE-65_upload_video_s3_bucket_demo" 
 "[object Object]" 
+"BE-81 append requirements.txt to set up the python environment (#51)" 
+"[object Object]" 
