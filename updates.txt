@@ -259,3 +259,5 @@
 "convert http to https" 
 "[object Object]" 
 "[object Object]" 
+"Merge branch 's3_bucket_demo' of https://github.com/biometricedge/quizmaster into s3_bucket_demo" 
+"[object Object]" 
