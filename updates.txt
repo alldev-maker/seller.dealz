@@ -105,3 +105,5 @@
 "[object Object]" 
 "chore: add php support to prettier" 
 "[object Object]" 
+"chore: add missing node version specification" 
+"[object Object]" 
