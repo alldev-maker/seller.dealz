@@ -103,3 +103,5 @@
 "[object Object]" 
 "Merge branch 'dev' of https://github.com/biometricedge/quizmaster into dev" 
 "[object Object]" 
+"chore: add php support to prettier" 
+"[object Object]" 
