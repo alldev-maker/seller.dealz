@@ -429,3 +429,5 @@
 "[object Object]" 
 "Leo_23-11-2021_dev_conflict_resolve" 
 "[object Object]" 
+"Merge branch 'dev' of github.com:biometricedge/quizmaster into dev" 
+"[object Object]" 
