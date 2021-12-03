@@ -111,3 +111,5 @@
 "[object Object]" 
 "Merge branch 'dev' of https://github.com/biometricedge/quizmaster into dev" 
 "[object Object]" 
+"update the BE-90" 
+"[object Object]" 
