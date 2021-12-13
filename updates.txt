@@ -287,3 +287,5 @@
 "[object Object]" 
 "Leo_13-12-2021_s3_bucket_demo" 
 "[object Object]" 
+"Merge branch 'BE-90_add_new_student' of https://github.com/biometricedge/quizmaster into BE-90_add_new_student" 
+"[object Object]" 
