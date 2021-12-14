@@ -291,3 +291,5 @@
 "[object Object]" 
 "Merge branch 'dev' of https://github.com/biometricedge/quizmaster into smtp_configuration" 
 "[object Object]" 
+"update the seed (#82)" 
+"[object Object]" 
