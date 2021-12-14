@@ -451,3 +451,5 @@
 "[object Object]" 
 "Merge branch 'BE-90_add_new_student' of https://github.com/biometricedge/quizmaster into BE-90_add_new_student" 
 "[object Object]" 
+"Merge branch 'dev' of https://github.com/biometricedge/quizmaster into smtp_configuration" 
+"[object Object]" 
