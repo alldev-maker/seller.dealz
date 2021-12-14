@@ -127,3 +127,5 @@
 "Leo_13-12-2021_s3_bucket_demo" 
 "[object Object]" 
 "[object Object]" 
+"update the smtp configuration" 
+"[object Object]" 
