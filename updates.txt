@@ -147,3 +147,5 @@
 "[object Object]" 
 "Leo_24-12-2021_conflict_resolved" 
 "[object Object]" 
+"move to the plain function" 
+"[object Object]" 
