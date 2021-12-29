@@ -476,3 +476,5 @@
 "[object Object]" 
 "[object Object]" 
 "[object Object]" 
+"update the app.json" 
+"[object Object]" 
