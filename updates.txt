@@ -478,3 +478,4 @@
 "[object Object]" 
 "update the app.json" 
 "[object Object]" 
+"[object Object]" 
