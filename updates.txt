@@ -159,3 +159,5 @@
 "[object Object]" 
 "fix the bugs" 
 "[object Object]" 
+"insert the missed function" 
+"[object Object]" 
