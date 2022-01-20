@@ -322,3 +322,5 @@
 "Merge branch 'dev' of https://github.com/biometricedge/quizmaster into dev" 
 "[object Object]" 
 "[object Object]" 
+"changed in form js (#106)" 
+"[object Object]" 
